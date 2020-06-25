@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_grey"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title" />
+
+    <erqal.mylibrary.widget.UEditText
+        android:id="@+id/school_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/default_edittext_btn"
+        android:hint="@string/school_name"
+        android:maxLength="50"
+        android:padding="15dp"
+        android:textColorHint="@color/lightgray"
+        android:textSize="14dp" />
+
+
+    <erqal.mylibrary.widget.UTextView
+        android:id="@+id/major"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/default_edittext_btn"
+        android:hint="@string/major"
+        android:padding="15dp"
+        android:textColorHint="@color/lightgray"
+        android:textSize="14dp" />
+
+    <erqal.mylibrary.widget.UTextView
+        android:id="@+id/graduate_year"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/default_edittext_btn"
+        android:clickable="true"
+        android:padding="15dp"
+        android:text="@string/graduate_time"
+        android:textColor="@color/lightgray"
+        android:textSize="14dp" />
+
+    <erqal.mylibrary.widget.UEditText
+        android:id="@+id/extra"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/default_edittext_btn"
+        android:clickable="true"
+        android:hint="@string/extra"
+        android:padding="15dp"
+        android:textColorHint="@color/lightgray"
+        android:textSize="14dp" />
+
+    <erqal.mylibrary.widget.UButton
+        android:id="@+id/save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_blue"
+        android:text="@string/save"
+        android:textColor="@color/white" />
+
+</LinearLayout>

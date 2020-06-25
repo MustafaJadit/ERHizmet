@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <erqal.mylibrary.widget.UTextView
+        android:gravity="right|center"
+        android:drawableRight="@drawable/min_rect_bg"
+        android:drawablePadding="10dp"
+        android:id="@+id/job_type_title"
+        android:layout_width="fill_parent"
+        android:layout_height="33dp"
+        android:text="@string/search"
+        />
+    <erqal.mylibrary.widget.UGridView
+        android:id="@+id/job_type_grid"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:scrollbars="none"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:stretchMode="columnWidth"
+        android:numColumns="3"
+        android:listSelector="@null"
+        />
+</LinearLayout>

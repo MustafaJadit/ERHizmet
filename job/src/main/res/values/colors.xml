@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="erqaledu_red">#e31423</color>-->
+    <color name="bg_grey">#f2f2f2</color>
+    <color name="bg_black">#252525</color>
+    <color name="bg_red">#d0021b</color>
+    <color name="default_font">#7d7e7c</color>
+    <color name="main_frag_bg_color">#f2f2f2</color>
+    <color name="white">#ffffff</color>
+    <color name="btn_blue">#3c97fc</color>
+    <color name="btn_blue_dark">#2588f7</color>
+    <color name="btn_green">#62cf5f</color>
+    <color name="btn_green_dark">#6fe86b</color>
+    <color name="bg_red_dark">#e8021d</color>
+    <color name="lightblack">#ff202020</color>
+
+    <drawable name="key_normal_color">#fcfcfc</drawable>
+    <drawable name="key_selected_color">#b8bcc0</drawable>
+    <drawable name="opkey_selected_color">#cbcfd5</drawable>
+    <drawable name="keyboard_bg_color">#acb3b6</drawable>
+
+
+
+
+    <color name="wheel_timebtn_nor">#54a3fa</color>
+    <color name="wheel_timebtn_pre">#CCCCCC</color>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_black"
+    android:orientation="vertical">
+
+    <erqal.mylibrary.widget.UTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="15dp"
+        android:text="请选择语言"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/red" />
+
+    <erqal.mylibrary.widget.UButton
+        android:id="@+id/ug"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_black"
+        android:text="ئۇيغۇرچە"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/black" />
+
+    <erqal.mylibrary.widget.UButton
+        android:id="@+id/zh"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_black"
+        android:text="简体中文"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

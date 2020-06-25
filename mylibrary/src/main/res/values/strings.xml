@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Library</string>
+
+    <string name="sure">مۇقىملاش</string>
+    <string name="cancel">بىكار قىلىش</string>
+    <string name="loading">يۈكلىنىۋاتىدۇ…</string>
+    <string name="loading_no_more">ھەممىسى يۈكلىنىپ بولدى</string>
+    <string name="error_view_no_data">مەزمۇن يوق</string>
+    <string name="error_network">تور خاتالىقى كۆرىلدى</string>
+    <string name="please_wait">سەل ساقلاڭ…‏</string>
+
+</resources>

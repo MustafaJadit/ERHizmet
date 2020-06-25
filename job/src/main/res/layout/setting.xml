@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_grey"
+    android:divider="@drawable/divider_default"
+    android:orientation="vertical"
+    android:showDividers="middle">
+
+    <include layout="@layout/top_title" />
+
+    <erqal.mylibrary.widget.UTextView
+        android:id="@+id/language_change"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawableLeft="@drawable/arrow_left_4settings_rtl"
+        android:gravity="right|center_vertical"
+        android:padding="15dp"
+        android:text="@string/system_language" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <erqal.mylibrary.widget.UTextView
+            android:id="@+id/clear_cache"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:clickable="true"
+            android:drawableLeft="@drawable/arrow_left_4settings_rtl"
+            android:gravity="right|center_vertical"
+            android:padding="15dp"
+            android:text="@string/clean_cache" />
+
+        <TextView
+            android:id="@+id/cache_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="50dp"
+            android:text=""
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+
+    <erqal.mylibrary.widget.UTextView
+        android:id="@+id/chech_update"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawableLeft="@drawable/arrow_left_4settings_rtl"
+        android:gravity="right|center_vertical"
+        android:padding="15dp"
+        android:text="@string/check_update" />
+
+    <erqal.mylibrary.widget.UTextView
+        android:id="@+id/share_friend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawableLeft="@drawable/arrow_left_4settings_rtl"
+        android:gravity="right|center_vertical"
+        android:padding="15dp"
+        android:text="@string/share_friend" />
+
+    <erqal.mylibrary.widget.UTextView
+        android:id="@+id/app_evaluate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawableLeft="@drawable/arrow_left_4settings_rtl"
+        android:gravity="right|center_vertical"
+        android:padding="15dp"
+        android:text="@string/app_evaluate" />
+
+    <erqal.mylibrary.widget.UTextView
+        android:id="@+id/advice_feedback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawableLeft="@drawable/arrow_left_4settings_rtl"
+        android:gravity="right|center_vertical"
+        android:padding="15dp"
+        android:text="@string/advice_feedback" />
+
+    <erqal.mylibrary.widget.UTextView
+        android:id="@+id/about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawableLeft="@drawable/arrow_left_4settings_rtl"
+        android:gravity="right|center_vertical"
+        android:padding="15dp"
+        android:text="@string/about" />
+</LinearLayout>

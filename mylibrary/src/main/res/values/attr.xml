@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--自定义布局控件-->
+    <declare-styleable name="LanguageType">
+        <attr name="is_uyghur_language" format="boolean"/>
+
+    </declare-styleable>
+
+
+</resources>

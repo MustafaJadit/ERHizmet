@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_grey"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title" />
+
+    <LinearLayout
+        android:id="@+id/account"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <erqal.mylibrary.widget.UTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/account" />
+
+        <erqal.mylibrary.widget.UTextView
+            android:id="@+id/account_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/arrow_left_4settings_ltr" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weixin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <erqal.mylibrary.widget.UTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:text="@string/we_chat"
+            android:textSize="14dp" />
+
+        <erqal.mylibrary.widget.UButton
+            android:id="@+id/bundle_weixin"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:background="@drawable/bind_button"
+            android:gravity="center"
+            android:paddingTop="2dp"
+            android:text="@string/bundle"
+            android:textColor="@color/orange"
+            android:textSize="12dp" />
+
+        <erqal.mylibrary.widget.UTextView
+            android:id="@+id/weixin_already_bundled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/rank"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/bundled"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phone_number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <erqal.mylibrary.widget.UTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:text="@string/phone_number" />
+
+        <erqal.mylibrary.widget.UTextView
+            android:id="@+id/phone_number_already_bundled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/rank"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/bundled"
+            android:visibility="gone" />
+
+        <erqal.mylibrary.widget.UButton
+            android:id="@+id/bundle_phone_number"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:background="@drawable/bind_button"
+            android:gravity="center"
+            android:paddingTop="2dp"
+            android:text="@string/bundle"
+            android:textColor="@color/orange"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reset_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <erqal.mylibrary.widget.UTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:text="@string/reset_password" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/arrow_left_4settings_ltr" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <erqal.mylibrary.widget.UTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:background="@color/transparent"
+        android:clickable="true"
+        android:gravity="bottom"
+        android:padding="20dp"
+        android:text="@string/help" />
+
+
+</LinearLayout>

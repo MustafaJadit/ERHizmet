@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_grey"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title" />
+
+    <erqal.mylibrary.widget.UTextView
+        android:id="@+id/organize_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawableLeft="@drawable/rank"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/arrow_left_4settings_ltr"
+        android:gravity="left|center_vertical"
+        android:padding="20dp"
+        android:text="@string/organize_name"
+        android:textSize="14dp" />
+
+    <erqal.mylibrary.widget.UTextView
+        android:id="@+id/recruit_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawableLeft="@drawable/rank"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/arrow_left_4settings_ltr"
+        android:gravity="left|center_vertical"
+        android:padding="20dp"
+        android:text="@string/recruitment_info"
+        android:textSize="14dp" />
+
+    <erqal.mylibrary.widget.UTextView
+        android:id="@+id/recruit_record"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:drawableLeft="@drawable/rank"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/arrow_left_4settings_ltr"
+        android:gravity="left|center_vertical"
+        android:padding="20dp"
+        android:text="@string/recruitment_record"
+        android:textSize="14dp" />
+</LinearLayout>

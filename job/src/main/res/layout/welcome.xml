@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyblue">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/welcome" />
+    <ViewFlipper
+        android:id="@+id/welcome_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:inAnimation="@anim/slide_in_from_bottom"
+        android:outAnimation="@anim/slide_out_to_bottom">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_default"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <erqal.mylibrary.widget.UButton
+                android:id="@+id/language_select_ug"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/welcome_btn"
+                android:text="ئۇيغۇرچە" />
+
+            <erqal.mylibrary.widget.UButton
+                android:id="@+id/language_select_cn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/welcome_btn"
+                android:text="中文" />
+        </LinearLayout>
+    </ViewFlipper>
+</RelativeLayout>
